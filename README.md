@@ -9,7 +9,7 @@ This C# project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.h
 
 
 ## Screenshot
-<img src="vintasoft-multipage-tiff-demo.png" alt="VintaSoft Multipage TIFF Demo">
+<img src="vintasoft-multipage-tiff-demo.png" title="VintaSoft Multipage TIFF Demo">
 
 
 ## Usage
