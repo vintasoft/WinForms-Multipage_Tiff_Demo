@@ -155,7 +155,7 @@ namespace MultiPageTiffDemo
         #region 'File' menu
 
         /// <summary>
-        /// Handles the Click event of NewToolStripMenuItem object.
+        /// Handles the Click event of newToolStripMenuItem object.
         /// </summary>
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -182,7 +182,7 @@ namespace MultiPageTiffDemo
         }
 
         /// <summary>
-        /// Handles the Click event of OpenToolStripMenuItem object.
+        /// Handles the Click event of openToolStripMenuItem object.
         /// </summary>
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -226,7 +226,7 @@ namespace MultiPageTiffDemo
         }
 
         /// <summary>
-        /// Handles the Click event of SaveToolStripMenuItem object.
+        /// Handles the Click event of saveToolStripMenuItem object.
         /// </summary>
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -242,7 +242,7 @@ namespace MultiPageTiffDemo
         }
 
         /// <summary>
-        /// Handles the Click event of SaveAsToolStripMenuItem object.
+        /// Handles the Click event of saveAsToolStripMenuItem object.
         /// </summary>
         private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -271,7 +271,7 @@ namespace MultiPageTiffDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PackToolStripMenuItem object.
+        /// Handles the Click event of packToolStripMenuItem object.
         /// </summary>
         private void packToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -316,7 +316,7 @@ namespace MultiPageTiffDemo
         }
 
         /// <summary>
-        /// Handles the Click event of CloseToolStripMenuItem object.
+        /// Handles the Click event of closeToolStripMenuItem object.
         /// </summary>
         private void closeToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -327,7 +327,7 @@ namespace MultiPageTiffDemo
         }
 
         /// <summary>
-        /// Handles the Click event of ExitToolStripMenuItem object.
+        /// Handles the Click event of exitToolStripMenuItem object.
         /// </summary>
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -341,7 +341,7 @@ namespace MultiPageTiffDemo
         #region 'View' menu
 
         /// <summary>
-        /// Handles the Click event of CenterImageToolStripMenuItem object.
+        /// Handles the Click event of centerImageToolStripMenuItem object.
         /// </summary>
         private void centerImageToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -361,7 +361,7 @@ namespace MultiPageTiffDemo
         }
 
         /// <summary>
-        /// Handles the Click event of ImageViewerSettingsToolStripMenuItem object.
+        /// Handles the Click event of imageViewerSettingsToolStripMenuItem object.
         /// </summary>
         private void imageViewerSettingsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -371,7 +371,7 @@ namespace MultiPageTiffDemo
         }
 
         /// <summary>
-        /// Handles the Click event of ColorManagementToolStripMenuItem object.
+        /// Handles the Click event of colorManagementToolStripMenuItem object.
         /// </summary>
         private void colorManagementToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -397,7 +397,7 @@ namespace MultiPageTiffDemo
         #region 'Page' menu
 
         /// <summary>
-        /// Handles the Click event of AddPagesToolStripMenuItem object.
+        /// Handles the Click event of addPagesToolStripMenuItem object.
         /// </summary>
         private void addPagesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -406,7 +406,7 @@ namespace MultiPageTiffDemo
         }
 
         /// <summary>
-        /// Handles the Click event of InsertPagesBeforeCurrentPageToolStripMenuItem object.
+        /// Handles the Click event of insertPagesBeforeCurrentPageToolStripMenuItem object.
         /// </summary>
         private void insertPagesBeforeCurrentPageToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -419,7 +419,7 @@ namespace MultiPageTiffDemo
         }
 
         /// <summary>
-        /// Handles the Click event of InsertPagesAfterCurrentPageToolStripMenuItem object.
+        /// Handles the Click event of insertPagesAfterCurrentPageToolStripMenuItem object.
         /// </summary>
         private void insertPagesAfterCurrentPageToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -432,7 +432,7 @@ namespace MultiPageTiffDemo
         }
 
         /// <summary>
-        /// Handles the Click event of RemovePageToolStripMenuItem object.
+        /// Handles the Click event of removePageToolStripMenuItem object.
         /// </summary>
         private void removePageToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -463,7 +463,7 @@ namespace MultiPageTiffDemo
         }
 
         /// <summary>
-        /// Handles the Click event of MetadataToolStripMenuItem object.
+        /// Handles the Click event of metadataToolStripMenuItem object.
         /// </summary>
         private void metadataToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -483,7 +483,7 @@ namespace MultiPageTiffDemo
         #region 'Help' menu
 
         /// <summary>
-        /// Handles the Click event of AboutToolStripMenuItem object.
+        /// Handles the Click event of aboutToolStripMenuItem object.
         /// </summary>
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -497,7 +497,7 @@ namespace MultiPageTiffDemo
 
 
         /// <summary>
-        /// Handles the PageIndexChanged event of ImageViewerToolStrip object.
+        /// Handles the PageIndexChanged event of imageViewerToolStrip object.
         /// </summary>
         private void imageViewerToolStrip_PageIndexChanged(object sender, PageIndexChangedEventArgs e)
         {
