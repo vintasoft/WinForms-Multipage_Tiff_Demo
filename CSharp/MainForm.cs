@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.IO;
 using System.Windows.Forms;
 
@@ -108,6 +109,7 @@ namespace MultiPageTiffDemo
         /// <summary>
         /// Gets or sets a value indicating whether TIFF file is opening.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         internal bool IsTiffFileOpening
         {
             get
@@ -126,6 +128,7 @@ namespace MultiPageTiffDemo
         /// Gets or sets a value indicating whether TIFF file is locked (image loading,
         /// image adding, file saving, file packing, etc).
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         internal bool IsTiffFileLocked
         {
             get
