@@ -1,4 +1,4 @@
-# VintaSoft WinForms Multipage TIFF Demo
+﻿# VintaSoft WinForms Multipage TIFF Demo
 
 This C# project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.html">VintaSoft Imaging .NET SDK</a> and demonstrates how to work with multipage TIFF files:
 * Create, display, pack and save single/multi-page TIFF file.
@@ -20,9 +20,9 @@ This C# project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.h
    Vintasoft.Imaging.ImagingGlobalSettings.Register("REG_USER", "REG_EMAIL", "EXPIRATION_DATE", "REG_CODE");
    ```
 
-3. Build the project ("MultiPageTiffDemo.Net8.csproj" file) in Visual Studio or using .NET CLI:
+3. Build the project ("MultiPageTiffDemo.Net10.csproj" file) in Visual Studio or using .NET CLI:
    ```
-   dotnet build MultiPageTiffDemo.Net8.csproj
+   dotnet build MultiPageTiffDemo.Net10.csproj
    ```
 
 4. Run compiled application and try to work with multipage TIFF files.
