@@ -12,11 +12,11 @@ using Vintasoft.Imaging.Metadata;
 using Vintasoft.Imaging.UI;
 using Vintasoft.Imaging.Utils;
 
-using DemosCommonCode;
-using DemosCommonCode.Imaging;
-using DemosCommonCode.Imaging.Codecs;
-using DemosCommonCode.Imaging.Codecs.Dialogs;
-using DemosCommonCode.Imaging.ColorManagement;
+using CommonCode;
+using CommonCode.Imaging;
+using CommonCode.Imaging.Codecs;
+using CommonCode.Imaging.Codecs.Dialogs;
+using CommonCode.Imaging.ColorManagement;
 
 
 namespace MultiPageTiffDemo

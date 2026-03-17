@@ -1,4 +1,4 @@
-namespace MultiPageTiffDemo
+﻿namespace MultiPageTiffDemo
 {
 	partial class MainForm
 	{
@@ -66,7 +66,7 @@ namespace MultiPageTiffDemo
             this.saveTiffFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.imageViewer1 = new Vintasoft.Imaging.UI.ImageViewer();
             this.openAllImagesFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.viewerToolStrip = new DemosCommonCode.Imaging.ImageViewerToolStrip();
+            this.viewerToolStrip = new CommonCode.Imaging.ImageViewerToolStrip();
             this.mainMenu.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -387,7 +387,7 @@ namespace MultiPageTiffDemo
             this.viewerToolStrip.Text = "imageViewerToolStripContainer";
             this.viewerToolStrip.UseImageViewerImages = false;
             this.viewerToolStrip.OpenFile += new System.EventHandler(this.openToolStripMenuItem_Click);
-            this.viewerToolStrip.PageIndexChanged += new System.EventHandler<DemosCommonCode.Imaging.PageIndexChangedEventArgs>(this.imageViewerToolStrip_PageIndexChanged);
+            this.viewerToolStrip.PageIndexChanged += new System.EventHandler<CommonCode.Imaging.PageIndexChangedEventArgs>(this.imageViewerToolStrip_PageIndexChanged);
             // 
             // MainForm
             // 
@@ -438,7 +438,7 @@ namespace MultiPageTiffDemo
 		private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
 
-        private DemosCommonCode.Imaging.ImageViewerToolStrip viewerToolStrip;
+        private CommonCode.Imaging.ImageViewerToolStrip viewerToolStrip;
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
         private System.Windows.Forms.ToolStripProgressBar imageLoadingProgressBar;
         private System.Windows.Forms.ToolStripStatusLabel imageLoadingProgressBarLabel;
